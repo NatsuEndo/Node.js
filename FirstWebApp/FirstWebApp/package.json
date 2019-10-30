@@ -1,0 +1,9 @@
+{
+  "name": "first-web-app",
+  "version": "0.0.0",
+  "description": "FirstWebApp",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}

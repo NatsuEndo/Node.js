@@ -1,0 +1,174 @@
+﻿.last {
+    text-align: right;
+}
+
+body {
+    background: #333;
+    margin: 0;
+    color: white;
+}
+
+footer {
+    background: #000;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0px 10px;
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+    border-radius: 30px 30px 30px 30px;
+    opacity: .8;
+}
+
+    footer a {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+    }
+
+    footer:hover {
+        color: #fff;
+        opacity: 0.5;
+        font-size: 19px;
+    }
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background: #111;
+    position: sticky;
+    top: 0;
+    opacity: .8;
+}
+
+    .menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: 60px;
+    }
+
+    .menu li {
+        float: left;
+        position: relative;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        width: 170px;
+        display: block;
+        text-align: center;
+        padding: 0 40px 0 40px;
+        color: white;
+        font-size: 18px;
+        font-family: sans-serif;
+        letter-spacing: 0.5px;
+        border-radius: 30px 30px 30px 30px;
+    }
+
+    .menu li a:hover {
+        color: white;
+        background: #333;
+        opacity: 0.5;
+        font-size: 19px;
+    }
+
+.search-form {
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+}
+
+input[type=text] {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 15px 0 0 15px;
+}
+
+button {
+    float: right;
+    background: orange;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+}
+
+.ueberschrift {
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+
+.FirstSub {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+    background: #333;
+    opacity: .9;
+}
+
+.SecoundSub,
+.ThirdSub,
+.ForthSub,
+.FithtSub,
+.SixthSub,
+.SeventhSub {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+    background: #333;
+    opacity: .9;
+}
+
+    .FirstSub li a,
+    .SecoundSub li a,
+    .ThirdSub li a,
+    .ForthSub li a,
+    .FithtSub li a,
+    .SixthSub li a,
+    .SeventhSub li a {
+        display: block;
+    }
+
+.menu li:hover .FirstSub,
+.First:hover .SecoundSub,
+.Secound:hover .ThirdSub,
+.Third:hover .ForthSub,
+.Forth:hover .FithtSub,
+.Fitht:hover .SixthSub,
+.Sixth:hover .SeventhSub {
+    display: block;
+    background-color: #000;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.FirstSub li a:hover,
+.SecoundSub li a:hover,
+.ThirdSub li a:hover,
+.ForthSub li a:hover,
+.FithtSub li a:hover,
+.SixthSub li a:hover,
+.SeventhSub li a:hover {
+    color: #fff;
+}

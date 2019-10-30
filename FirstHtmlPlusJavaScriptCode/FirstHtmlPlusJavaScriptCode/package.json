@@ -1,0 +1,9 @@
+{
+  "name": "first-html-plus-java-script-code",
+  "version": "0.0.0",
+  "description": "FirstHtmlPlusJavaScriptCode",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
